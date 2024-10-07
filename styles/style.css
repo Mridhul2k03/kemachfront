@@ -267,9 +267,9 @@ li {
   text-transform: none;
 }
 @media (max-width:768px) {
-  .s3 .box{
-    /* width: 40%; */
-  }
+  /* .s3 .box{
+    width: 40%;
+  } */
   .s3 .items-col{
     margin-bottom: 2rem;
   }
