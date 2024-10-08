@@ -278,7 +278,26 @@ li {
   font-weight: 700;
   text-align: center;
   text-transform: none;
+}.s3 .box:hover{
+  transform: translateY(-5px);
+  border-radius: 10px;
+ }
+ @media (max-width:768px) {
+  .s3 .box img{
+      animation: Beat 1s infinite;
+  }
 }
+  @keyframes Beat{
+      0%{
+          transform: scale(1);
+      }
+      50%{
+          transform: scale(1.1);
+      }
+      100%{
+          transform: scale(1);
+  }
+ }
 
 @media (max-width:768px) {
   /* .s3 .box{
