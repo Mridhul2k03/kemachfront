@@ -296,16 +296,31 @@
                         transform: translateY(-5px);
                         border-radius: 10px;
                        }
+                       @media (max-width:768px) {
+                        .s3 .box img{
+                            animation: Beat 1s infinite;
+                        }
+                        @keyframes Beat{
+                            0%{
+                                transform: scale(1);
+                            }
+                            50%{
+                                transform: scale(1.1);
+                            }
+                            100%{
+                                transform: scale(1);
+                        }
+                       }
                 </style>
                 <div class="col-md-6 items-col d-flex justify-content-center align-items-center ">
-                    <a href="enquiry.html">
-                        <div class="box" data-aos="fade-up">
+                    <a href="enquiry.html" data-aos="fade-up" >
+                        <div class="box">
                             <p>Book a Test Operation</p>
                             <img src="images/testdrive.png" alt="">
                         </div>
                     </a>
-                    <a href="testservice.html">
-                        <div class="box" data-aos="fade-up">
+                    <a href="testservice.html" data-aos="fade-up">
+                        <div class="box">
                             <p>Contact with sales team</p>
                             <img src="images/worker.png" alt="">
                         </div>
